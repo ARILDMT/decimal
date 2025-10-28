@@ -1,0 +1,48 @@
+# Object files
+*.o
+*.a
+*.so
+*.dylib
+
+# Executables
+test
+test_gcov
+*.out
+*.app
+
+# Coverage files
+*.gcno
+*.gcda
+*.gcov
+*.info
+
+# Coverage reports
+report/
+coverage/
+
+# Valgrind logs
+*.log
+valgrind_*.log
+
+# IDE and editor files
+.vscode/
+.idea/
+.claude/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Temporary files
+*.tmp
+*.bak
+
+# Build artifacts
+src/*.o
+src/*.a
+src/test
+src/test_gcov
+src/report/
+
+# Clang format
+.clang-format
